@@ -9,7 +9,7 @@ services:
     environment:
       - HOST=db
       - USER=odoo
-      - PASSWORD=.0d00!Render?
+      - PASSWORD=7U:A9m4uy&2T
     volumes:
       - odoo-data:/var/lib/odoo
       - ./config:/etc/odoo
@@ -19,7 +19,7 @@ services:
     image: postgres:16
     environment:
       - POSTGRES_DB=postgres
-      - POSTGRES_PASSWORD=.0d00!Render?
+      - POSTGRES_PASSWORD=7U:A9m4uy&2T
       - POSTGRES_USER=odoo
     volumes:
       - postgres-data:/var/lib/postgresql/data
