@@ -10,7 +10,7 @@ DB_CHECK=$(PGPASSWORD="$DB_PASSWORD" psql -h "$DB_HOST" -U "$DB_USER" -d "$DB_NA
 # Initialize new DB if tables are missing
 if [ -z "$DB_CHECK" ]; then
     echo "Initializing new database..."
-    odoo-bin -d "$DB_NAME" \
+    odoo -d "$DB_NAME" \
         --db_host="$DB_HOST" \
         --db_user="$DB_USER" \
         --db_password="$DB_PASSWORD" \
