@@ -1,0 +1,9 @@
+[options]
+admin_passwd = %(ADMIN_PASSWORD)s
+db_host = %(DB_HOST)s
+db_port = %(DB_PORT)s
+db_user = %(DB_USER)s
+db_password = %(DB_PASSWORD)s
+db_name = %(DB_NAME)s
+addons_path = /mnt/extra-addons,/usr/lib/python3/dist-packages/odoo/addons
+data_dir = /var/lib/odoo
